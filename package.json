@@ -1,0 +1,16 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "my first frontend challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tailwindcss -i ./styles/input.css -o ./styles/main.css",
+    "watch" : "tailwindcss -i ./styles/input.css -o ./styles/main.css --watch"
+  },
+  "author": "Imtiaz uddin",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
